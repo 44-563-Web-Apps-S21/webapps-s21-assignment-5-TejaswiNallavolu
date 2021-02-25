@@ -9,6 +9,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+</style>
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -149,6 +158,50 @@
 <br>
 <br>
 <br>
+<form class="mt-2 p-4">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Enter email">
+    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+  </div>
+  <div class="form-group">
+    <label for="plant">Plant</label>
+    <input type="text" placeholder="Enter your plant" id="plant" class="form-control" />
+  </div>
+  <div class="form-check">
+    <label class="form-check-label" for="checkforSignup">Sign up for newsletter?</label>
+    <input type="checkbox" class="form-check-input" id="checkforSignup" style="margin: 6px;">
 
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+</form>
+<br>
+<div class="cards">
+<div class="card" style="width: 18rem; margin: 2px">
+  <img class="card-img-top" src="images/Aloe.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Aloe</h5>
+    <p class="card-text"></p>Aloe, is a genus containing over 550 species of flowering succulent plants. The most widely known species is Aloe vera, or "true aloe". It is called this because it is cultivated as the standard source for assorted pharmaceutical purposes.</p>
+    <a href="https://en.wikipedia.org/wiki/Aloe" target="_blank" class="btn btn-primary">Aloe</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem; margin: 2px">
+  <img class="card-img-top" src="images/LARCH.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Larch</h5>
+    <p class="card-text">Larches are conifers in the genus Larix, of the family Pinaceae (subfamily Laricoideae). Growing from 20 to 45 metres (65 to 150 feet) tall, they are native to much of the cooler temperate northern hemisphere, on lowlands in the north and high on mountains further south.</p>
+    <a href="https://en.wikipedia.org/wiki/Larch" target="_blank" class="btn btn-primary">Larch</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem; margin: 2px">
+  <img class="card-img-top" src="images/LAVENDER.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Lavender</h5>
+    <p class="card-text">lavender is a genus of 47 known species of flowering plants in the mint family, Lamiaceae. It is native to the Old World and is found in Cape Verde and the Canary Islands.</p>
+    <a href="https://en.wikipedia.org/wiki/Lavandula" target="_blank" class="btn btn-primary">Lavender</a>
+  </div>
+</div>
+</div>
 </body>
 </html>
